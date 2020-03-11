@@ -1,0 +1,150 @@
+/* PrismJS 1.19.0
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+clike+c+cpp+gdscript+git+python+zig */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+:root {
+  --color-light: #f5edba;
+  --color-dark: #1f0e1c;
+  --color-grey1: #3e2137;
+  --color-grey2: #584563;
+  --color-grey3: #8c8fae;
+  --color-red: #9d303b;
+  --color-green: #c0c741;
+  --color-blue: #34859d;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: var(--color-light);
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: var(--color-dark);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: var(--color-grey3);
+	background: var(--color-dark);
+}
+
+.token.punctuation {
+	color: var(--color-light);
+	background: var(--color-dark);
+}
+
+.token.namespace {
+	opacity: .7;
+    color: var(--color-blue);
+	background: var(--color-dark);
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: var(--color-blue);
+	background: var(--color-dark);
+}
+
+.token.boolean,
+.token.number {
+	color: var(--color-red);
+	background: var(--color-dark);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: var(--color-red);
+	background: var(--color-dark);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: var(--color-light);
+	background: var(--color-dark);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: var(--color-green);
+	background: var(--color-dark);
+}
+
+.token.keyword {
+	color: var(--color-blue);
+	background: var(--color-dark);
+}
+
+.token.regex,
+.token.important {
+	color: var(--color-red);
+	background: var(--color-dark);
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+	background: var(--color-dark);
+}
+.token.italic {
+	font-style: italic;
+	background: var(--color-dark);
+}
+
+.token.entity {
+	cursor: help;
+	background: var(--color-dark);
+}
+

@@ -1,0 +1,105 @@
+/* colors - stolen from https://lospec.com/palette-list/na16 */
+/* base CSS - stolen from http://bettermotherfuckingwebsite.com/ */
+
+:root {
+  --color-light: #f5edba;
+  --color-dark: #1f0e1c;
+  --color-grey1: #3e2137;
+  --color-grey2: #584563;
+  --color-grey3: #8c8fae;
+  --color-red: #9d303b;
+  --color-grean: #c0c741;
+  --color-blue: #34859d;
+}
+
+* {
+  color: var(--color-light);
+  background-color: var(--color-grey1);
+}
+
+body {
+  margin:40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  padding:0 10px;
+}
+
+h1,h2,h3
+{
+  line-height: 1.2;
+}
+
+/* tag listing */
+.taglist ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.taglist li, a{
+  color: var(--color-grey3);
+  background-color: var(--color-grey2);
+  border-radius: 8px;  
+  padding: .2em;
+  display: inline;
+}
+
+/* external links */
+.linklist ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.linklist li{
+  padding: .2em;
+  display: block;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* searchbar stuff */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchterm {
+  width: 100%;
+  border: 5px solid var(--color-grey2);
+  background-color: var(--color-dark);
+  border-right: none;
+  padding: 1em;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--color-blue);
+  font-size: 17px;
+}
+
+.searchterm:focus{
+  color: var(--color-light);
+}
+
+.searchbutton {
+  width: 20%;
+  height: 64px;
+  padding: 1em;
+  border: 5px solid var(--color-grey2);
+  background: var(--color-grey1);
+  text-align: center;
+  color: var(--color-grey3);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
