@@ -1,4 +1,4 @@
-# [atet](https://github.com/atet) / [**_atlas_algorithms_**](https://github.com/atet/learn/blob/master/README.md#atet--algorithms-atlas)
+# [atet](https://github.com/atet) / [**_atlas_algorithms_**](https://github.com/atet/atlas_algorithms/blob/master/README.md#atet--atlas_algorithms)
 
 # Algorithms Atlas
 
