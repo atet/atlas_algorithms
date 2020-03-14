@@ -1,0 +1,15 @@
+// TODO(Riles): improve base template - 20200314
+// TODO(Riles): create an example article directory - 20200314
+// TODO(Riles): JSON file example - 20200314
+// TODO(Riles): tagging system 
+// TODO(Riles): unify some sort of themeing system - 20200314
+
+// TODO(Riles): implement a basic "marddown like" filetype
+
+// TODO(Riles): content request system
+
+// TODO(Riles): writeup on gap buffer for text storagei
+// TODO(Riles): writeup on view matrices
+// TODO(Riles): writeup on cache locality
+
+// TODO(Riles): Look into https://github.com/3b1b/manim for mathstuff
